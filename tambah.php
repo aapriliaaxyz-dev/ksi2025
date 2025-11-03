@@ -1,14 +1,7 @@
 <?php
 // File: tambah.php
 
-// Kita BELUM punya koneksi.php di branch ini, jadi konek manual
-$db_host = 'localhost';
-$db_user = 'root';
-$db_pass = '';
-$db_name = 'db_praktikum_ksi';
-$koneksi = mysqli_connect($db_host, $db_user, $db_pass, $db_name);
-
-if (!$koneksi) { die("Koneksi Gagal: " . mysqli_connect_error()); }
+require 'koneksi.php';
 
 // Cek apakah form disubmit
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
