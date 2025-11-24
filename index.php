@@ -19,7 +19,7 @@ $result = mysqli_query($koneksi, $sql);
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container">
-        <a class="navbar-brand" href="index.php">Praktikum KSI</a>
+        <a class="navbar-brand" href="index.php">Praktikum KSI  20255</a>
       </div>
     </nav>
 
