@@ -60,6 +60,6 @@ $result = mysqli_query($koneksi, $sql);
 </html>
 
 <?php
-// 3. Tutup koneksi
+// 3. Tutup koneksiiii
 mysqli_close($koneksi);
 ?>
