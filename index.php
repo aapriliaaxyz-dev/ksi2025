@@ -1,6 +1,6 @@
 <?php
 require 'koneksi.php';
-// --- Akhir Bagian Koneksi ---
+// --- Akhir Bagian Koneksiiiiii ---
 
 // --- Bagian Logika SELECT ---
 $sql = "SELECT * FROM mahasiswa ORDER BY id DESC";
